@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/ui")
 public class ExpanseController {
     @RequestMapping
     public String index(){
-        return "Hello World";
+        return "Welcome to Expanse Tracker App";
     }
 }
